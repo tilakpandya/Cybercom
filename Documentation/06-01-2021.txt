@@ -5,8 +5,7 @@ create repo "Practise-day-2"
 
 modification and deletion in local as well as remotelly using git commands.
 
-practise with branches so create new branch and merge it with master branch 
-then deleted the branches in local as well as remote location.
+practise with branches so create new branch and merge it with master branch then deleted the branches in local as well as remote location.
 
 performed gitignore with folder and individual files eg. etc/home.txt, etc/about.txt, etc/login.txt
 inside .gitignore: etc
