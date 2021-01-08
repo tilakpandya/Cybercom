@@ -1,0 +1,29 @@
+   
+div{
+    
+    margin-left:250px;
+    margin-right:250px;
+}
+p{
+    text-align: justify;
+}
+td{
+   float: inline-start;
+}
+#i1{
+    width: 215px;
+    height: 315px;
+}
+img{
+    height:315px;
+    width: 215px;
+}
+input{
+    width:210px;
+}
+#i1{
+    margin-left: 100px;
+}
+table{
+    margin-left: 250px;
+}
