@@ -1,0 +1,43 @@
+
+        body {
+            background-color: #f1f1f1;
+            padding: 20px;
+            font-family: Arial;
+          }
+  
+          img{
+              height:130px;
+              width: 120px;
+              margin-left: 70px;
+          }
+          
+          /* Center website */
+          .main { 
+            margin-left:80px;
+          }
+          
+          h1 {
+            font-size: 50px;
+            word-break: break-all;
+          }
+          
+          
+          /* Create four equal columns that floats next to each other */
+          .column {
+            width: 25%;
+            margin-left:50px;
+            display:inline-block;
+          }
+          
+          /* Clear floats after rows */ 
+          
+          /* Content */
+          .content {
+            background-color: white;
+            padding: 10px;
+            margin: 50px 50px;
+            height:350px;
+            width:250px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+          }
