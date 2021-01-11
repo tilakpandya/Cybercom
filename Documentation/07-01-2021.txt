@@ -1,9 +1,0 @@
-today i start watching some youtube tutorials about git commands like endureka, telusko etc.
-started doing same basic local repo creation.
-
-created some branches and merged with master branch.
-resolved some merge conflicts.
-tried to revert commits.
-
-had got to know about few new commands like git config, git rebase, git commit -a -m "first commit"(add+commit).
-   
