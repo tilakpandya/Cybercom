@@ -1,0 +1,27 @@
+•	consol.log(‘Hello world’); 	-  Write code in console of browser.
+•	<script src=”script.js”>	-  Add external js script.
+•	Variable 			–  Container to store value  	
+	
+	Eg var firstName = “Tilak”
+      	var  age = 22;  
+      	var  value = true;
+      	var gender;
+
+•	Comments :  Single line(//) and multiple lines(/*……*/)
+•	String Concatenation : consol.log(firstName+’ ’+lastName);
+•	Variable mutation: redefine variable
+•	alert() – notification popup
+•	prompt() – get value from notification popup.
+	Eg var name = prompt(“Enter your name:”);
+
+•	Operators:
+	Arithmetic operators (+,-,*,/) 
+	Logical operators (<,>,==)
+	Typeof operators(eg. typeof name)
+•	Operator proceeding :
+	Eg var isFullAge = now – yearJohn >= fullAge; 
+•	More operators: 
+•	x +=2 (x=x+2);
+•	x-=2 (x=x-2);
+•	x*=3 (x=x*3);
+•	x++ (x=x+1);

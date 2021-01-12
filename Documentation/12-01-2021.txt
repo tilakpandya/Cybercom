@@ -1,0 +1,29 @@
+•	JavaScript Engine is a machine that execute JavaScript code.
+•	First of all, code goes into parser and read it line by line and check all syntax. Parser throws the error if invalid syntax is there. If everything is good, parser produce data structure called abstract syntax tree.
+•	Then code convert into machine code.
+•	After that code runs perfectly. 
+•	All JS code runs in environment which is called Execution Context. 
+•	All code which is not inside function is executed in global execution context.
+•	Global execution context is associated with global object.
+•	In browser, it’s window object.
+	Example: lastname === window.lastname //true
+
+
+1)	Creation of Variable Object:
+	 Argument object created which contains all arguments pass in function.
+	Code scans for function declaration means all functions stored in variable function.
+	Code scans for variable declaration. For each variable, a property created in variable object and set to undefined.
+	Last 2 points known as Hoisting.
+	Hoisting only works in function declaration not function expressions.
+
+2)	Scope chain: 
+	Where can we access certain variables?
+	Define scope of variable to access.
+	Lexical scoping: function withing another function to access outsider function’s variables.   
+
+3)	This variable:
+	Points at the global object.
+	The This keyword is not assigned a value until a function where it is defined is called.
+
+•	Object and Property: var variableName = { property: value,…};
+

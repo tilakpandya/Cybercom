@@ -1,0 +1,74 @@
+•	If else conditions: execute a code if the condition matched.
+Eg. If(age >= 18){
+	Consol.log(“You can vote”);
+}else{
+	Consol.log(“You can’t vote”);
+}
+
+•	else if: uses when you have multiple conditions.
+If(age <= 13){
+		Consol.log(“You are boy.”);
+}
+else if( age <= 22){
+		Consol.log(“You are teenager.”);
+}else{
+	Consol.log(“You are adult.”);
+}
+•	Basic Boolean Logic: AND ,OR ,NOT
+	AND (&&): true if all AND conditions are true otherwise false.
+	Eg If (age >= 18 && name == “Mohit”)
+
+	OR (||): any one conditions needs to true.
+	Eg If (age >= 18 ||age<=25)
+
+	NOT (!): invert the true/false value.
+	Eg If (name!= “mohit”)
+
+•	Ternary Operator: another way to check conditions if it’s true or false.
+	Eg age >= 18 ? Consol.log(“You can vote”) : Consol.log(“You can’t vote”);
+	 (condition) ? (Statement if it’s true) : (Statement if it’s false);
+•	Switch statement: when multiple conditions are true.
+
+	Switch (condition){
+	Case 1: statement;
+	Break;
+	Case 2: statement;
+	Break;
+	….
+	Default: statement;
+	}
+
+•	Truthy and Falsy values:
+	Falsy values: undefined,Null, 0 , ‘ ’,NaN
+	Truthy values : all value which is consider as a true in conditions.
+
+•	===: use to match types as well as values.
+	If(23 == ‘23’)  //true
+	If(23 === ‘23’) //false
+
+•	Functions: it contains piece of codes. We can pass arguments and it’ll return the appropriate results.  
+	function CalculateAge(birthYear){
+		return 2021 – birthyear;
+	}
+	consol.log(CalculateAge(1999));
+
+	Function Expressions:
+	Var AdditionOfNum = function(num1,num2);
+
+•	Arrays: contains bunch of values in single variable.
+	Var name = [‘ananya’,’alia’,’geeta’,’sarita’]
+	Var name = new Array(‘ananya’,’alia’,’geeta’,’sarita’);
+
+	 2 ways to create array: 1) using [] 2) using Array() function.
+	Consol.log(name[2]) //output: geet
+	name[1] = ‘kareena’; //change the value at that position.
+	name.push(‘deepika’); //add the element at last.
+	name.unshift(‘nohra’); //add the element at first.
+	name.pop(); //remove the last element.
+	name.shift(); //remove the first element.
+	name.indexOf(‘alia’);//return the index number of element.
+
+
+
+ 
+
