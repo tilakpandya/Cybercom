@@ -1,0 +1,97 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>HTML5 page</title>
+        <style type="text/css">
+            canvas{
+                border: 1px solid #000;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 align="center">HTML5 Page</h1>
+        
+        <header>
+		<h1>Example of Header</h1>
+		<nav>
+			<p>
+                <a href="#">Home</a> | 
+                <a href="#">About</a> | 
+                <a href="#">Contact</a>
+            </p>
+		</nav>
+    </header>
+    
+
+        <article>
+            <h2>Article tag </h2>
+            <p>An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.</p>
+        </article>
+
+        <aside>
+            <h1>aside Tag</h1>
+            <p>This tag represents a section of the web page that encloses content which is tangentially related to the content around it.</p>
+        </aside>
+
+        <hgroup>
+            <h1>Example of HTML hgroup Tag</h1>
+            <h2>Example of HTML hgroup Tag</h2>
+               <h3>Example of HTML hgroup Tag</h3>
+        </hgroup>
+
+        <audio controls="controls" src="sample.mp3"></audio><br><br>
+        <p dir="rtl">bdi uses to display <bdi>ARABIC_PLACEHOLDER</bdi>  left-to-right.</p>   
+
+    <p>Data tag example</p>
+    <ul>
+    <li><data value="204">Green Tea</data></li>
+    <li><data value="205">Tomato Ketchup</data></li>
+    <li><data value="206">Roasted Coffee Beans</data></li>
+    </ul>
+
+
+    <p>Canvas tag example</p>
+    <canvas id="myCanvas" width="300" height="200"></canvas>
+	<script type="text/javascript">
+		window.onload = function(){
+			var canvas = document.getElementById("myCanvas");
+			var context = canvas.getContext("2d");
+			context.moveTo(50, 150);
+			context.lineTo(250, 50);
+			context.stroke();
+		};
+    </script>
+    
+    <p>Example of datalist tag:</p>
+	<form action="/examples/html5/demo_datalist.php" method="post">
+		<input type="text" list="browsers" name="favorite_browser">
+		<datalist id="browsers">
+			<option value="Firefox">
+			<option value="Chrome">    
+			<option value="Internet Explorer">
+			<option value="Opera">
+			<option value="Safari">
+		</datalist>
+		<input type="submit" value="Submit">
+    </form>
+    
+    <details>
+        <summary>Click on arrow</summary>
+        <p>It is example of details tag in html 5, thank you.</p>
+    </details>
+
+    <p>Example of embed tag</p>
+    <embed src="#" width="400px" height="200px">
+    
+        <form action="#" method="post">
+
+            <label>Exaple of Keygen tag: <keygen name="key"></label>
+            <input type="submit" value="Submit">
+        </form>   
+
+        <footer>
+            
+            <p>Copyright &copy; 2014 Example of footer tag</p>
+        </footer>
+    </body>
+</html>
