@@ -1,0 +1,27 @@
+					DOM(Document Object Model)
+
+-> Structure representation of HTML Documentation.
+-> Connect webpage to Script(JS).
+-> Object in DOM to access and interect with.
+	
+Events -> Notify the code something happened with webpage.
+	  Eg. button click, scrolling, pressing key etc.
+
+Event lister -> A function perfoms actions that specifying.
+
+querySelector -> read and manupulate content of object or tag. 
+	.textContent -> to get or set textContent.
+	.style 	     -> to use css properties
+	.addEventListener ->attach event handler to document.
+
+getElementById -> to get id of any tag.
+
+callback function ->a function passed as an argument to another function.
+Anonymous function->a function without a name.
+
+Web storage objects localStorage and sessionStorage allow to save key/value pairs in the browser.
+	->In localStorage,The data does not expire. It remains after the browser restart.
+	->The sessionStorage object is used much less often than localStorage.
+	  The sessionStorage exists only within the current browser tab.
+	
+	
