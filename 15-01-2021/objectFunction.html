@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script>
+        var person= function(name,byear){
+            this.name=name;
+            this.byear=byear;
+            this.calculateAge=function(){
+                console.log(2021-byear);
+            }; 
+        }
+
+        var john = new person('john',1999);
+        john.calculateAge();
+        var riya = new person('riya',1998);
+        riya.calculateAge();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        var years=[1990,1991,1992];
+
+        function calculateAge(arr,fn){
+            var ar=[];
+            for(var i=0;i<arr.length;i++){
+                ar.push(fn(arr[i]));
+            }
+            return ar;
+        }
+        function fn(element){
+            return 2021-element;
+        }
+        console.log(calculateAge(years,fn));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
