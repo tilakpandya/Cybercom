@@ -1,0 +1,24 @@
+Annonymous function example.
+Immedietly Invoke Function Expressions.
+Closure function eg InterviewQuestion("teacher")("Shital").
+
+With the call() method, you can write a method that can be used on different objects.
+var person = {
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+}
+var person1 = {
+  firstName:"John",
+  lastName: "Doe"
+}
+var person2 = {
+  firstName:"Mary",
+  lastName: "Doe"
+}
+person.fullName.call(person1);  // Will return "John Doe"
+
+var is a function scoped.
+let and const is block scoped because of data privacy.
+
+Use of `` eg.console.log(`he is {$name} from {$city} and studying in {$clgName}`);
