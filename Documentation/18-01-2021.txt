@@ -1,0 +1,12 @@
+		Arrow function
+years=[1999,2000,2001]
+const ages = years.map(el => 2021 - el);
+console.log(ages);
+//output [22,21,20]
+
+map() :- use to itterate from array 
+eg.console.log(years.map(el));
+
+
+		Destructuring
+
