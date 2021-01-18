@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>practice1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        .btn {
+            text-align: center;
+            padding-top: 20px;
+        }
+        th{
+            padding-right: 50px;
+            text-align: left;
+        }
+        
+    </style>
+    <script src='practice1.js'></script>
+</head>
+<body>
+    <body>
+        
+        <form method="post" action="success.html" >
+        <fieldset>
+        <legend>Your Address</legend>
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <td><input type="text" name="fname" required/></td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <td><input type="text" name="lname" required/></td>
+                </tr>
+                <tr>
+                    <th>Street</th>
+                    <td><input type="text" name="street"required /></td>
+                </tr>
+                <tr>
+                    <th>City</th>
+                    <td><input type="text" name="city" required /></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br/><br/>
+        <fieldset>
+        <legend>Additional Details</legend>
+        
+        <table>
+            <tr>
+                <th>Biography</th>
+                <td><textarea  name="biography"></textarea></td>
+            </tr>
+            <tr>
+                <th>Image</th>
+                <td><input type="file" name="image" required/></td>
+            </tr>
+            <tr>
+                <th>Age Group</th>
+                <td><input type="number" id="age" plrequiredaceholder="0 to 9 Years" name="age" min="1" max="9"></td>
+            </tr>
+        </table>
+        </fieldset>
+        <br/><br/>
+        <fieldset>
+        <legend>Interests</legend>
+        <table>
+            <tr>
+                <th valign="top">Hobbies?</th>
+                <td>
+                    <select name="hobbies" id="hobbies" multiple="multiple">
+                        <option value="Playing Soccer">Playing Soccer</option>
+                        <option value="Dancing">Dancing</option>
+                        <option value="Gardening">Gardening</option>
+                        <option value="Watching Movies">Watching Movies</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Favourite Car?</th>
+                <td>
+                    <select name="favourite-car" id="favourite-car">
+                        <option value="Volvo">Volvo</option>
+                        <option value="Suzuki">Suzuki</option>
+                        <option value="Audi">Audi</option>
+                    </select> 
+                </td>
+            </tr>
+            <tr>
+                <th>Favourite Public Transport?</th>
+                <td>
+                    <select name="cars" id="transport">
+                        <optgroup label="Ground">
+                          <option value="Train">Train</option>
+                          <option value="Bus">Bus</option>
+                        </optgroup>
+                        <optgroup label="Water">
+                          <option value="Steem">Steem</option>
+                          <option value="Boat">Boat</option>
+                        </optgroup>
+                      </select>
+                </td>
+            </tr>
+        </table>
+        
+        </fieldset>
+        <div class="btn">
+            <input type="submit" name="bt1" value="Submit" />
+            <input type="reset" name="bt2" value="Reset"/> <br/>
+        </div>
+        </form>
+        
+</body>
+</html>
