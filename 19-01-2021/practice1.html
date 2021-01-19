@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        table{
+            margin-left: 80px;
+        }
+        td{
+            padding: 8px;
+        }
+        input{
+            width: 300px;
+        }
+    </style>
+
+<script>
+    function matchPassword() {  
+    var pw1 = document.getElementById("password");  
+    var pw2 = document.getElementById("password1"); 
+    
+    var e1 = document.getElementById("email");  
+    var e2 = document.getElementById("email1"); 
+    if(pw1 != pw2)  
+    {   
+        alert("Passwords did not match");  
+    }
+
+    if(e1 != e2)  
+    {   
+        alert("email did not match");  
+    }
+}
+</script>
+
+</head>
+<body>
+    <form action="Information.php" method="POST">
+        <h1>Personal Information</h1>
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name='fname' required></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name='lname' required></td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name='dob' required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><select id="gender" name='gender' required>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select></td>
+            </tr>
+        </table>
+
+        <h1>Account Information</h1>
+        <table>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name='email' required>
+                    <br>(your email address will be your username)</td>
+            </tr>
+            <tr>
+                <td>Re-type Email</td>
+                <td><input type="email" name='email1' required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password"  required>
+                    <br>(Min 8 character, 1 number, case-Sensitive)</td>
+            </tr>
+            <tr>
+                <td>Re-type Password</td>
+                <td><input type="password" name="password1" required></td>
+            </tr>
+            <tr>
+                <td>Security Question:</td>
+                <td><select id="que" required>
+                    <option>what is your nickname?</option>
+                    <option>what is your School name?</option>
+                    <option>what is your collage name?</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Security Answer:</td>
+                <td><input type="text" name="que" required></td>
+            </tr>
+        </table>
+
+        <h1>Contact Information</h1>
+        <table>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" name="address" required></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" name="city" required></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td><select id="state" name="state" required>
+                    <option>Gujarat</option>
+                    <option>Maharashtra</option>
+                    <option>Madhyapradesh</option>
+                    <option>Telangana</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Zip Code:</td>
+                <td><input type="number" name="zip" style="width:65px;" required> <button type="button" disabled>Optional</button> </td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td><input type="number" name="phone" style="width:135px;" required> <select id="phone" required>
+                    <option>Mobile</option>
+                    <option>Landline</option>
+                    </select></td>
+            </tr>
+        </table>
+        <table style="margin:60px 250px;">
+            <tr>
+                <td><input type="submit" onclick="matchPassword()" name="bt1" value="Submit" style="width:100px; height:40px; background-color:slategrey; color: white;"/></td>
+                <td><input type="reset" name="bt2" value="Reset" style="width:100px; height:40px; background-color:slategrey; color: white;"/> </td>
+            </tr>
+        </table>
+    </form>
+
+    
+</body>
+</html>
