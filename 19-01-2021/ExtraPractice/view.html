@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Information</title>
+    </head>
+
+<body>
+    
+    <h1 align="center">Information...</h1>
+    
+    <div id= "box" align="center"></div>
+
+    <script>
+       let array = JSON.parse(localStorage.getItem("array"));
+       
+      var html = "<table border='1|1'>";
+    for (var i = 0; i < array.length; i++) {
+        html+="<tr>";
+        html+="<td>"+array[i].name+"</td>";
+        html+="<td>"+array[i].mail+"</td>";
+        html+="<td>"+array[i].bdate+"</td>";
+        html+="</tr>";
+
+    }
+    html+="</table>";
+document.getElementById("box").innerHTML = html; 
+
+    </script>
+</body>
