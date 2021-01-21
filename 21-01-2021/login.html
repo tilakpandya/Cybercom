@@ -6,18 +6,12 @@
     <title>Login</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
 </head>
 <body>
     <div align="center">
     <h1> Login Page</h1>
     <form action="">
         <table>
-            <tr>
-                <td> 
-                    <input type="text" placeholder="Name" id="AdminName">
-                </td>
-              </tr>
             <tr>
               <td> 
                   <input type="email" placeholder="Email" id="AdminEmail">
@@ -26,12 +20,13 @@
             <tr>
                 <td><input type="password" placeholder="Password" id="AdminPassword"></td>
             </tr>
-           <tr>
-              <td><input type="password" placeholder="Confirm Password" id="AdminConfirmPassword"></td>
-          </tr>
         </table>
-            <input type="submit" id="submit" value="Submit">  
+            <input type="submit" id="submit" onclick="VarifyUser()" value="Login"> 
+            <input type="button" id="btn_Registration" onclick="moveToRegistration()" value="Registration Now">  
     </form>
+    
+    <script src='js/login.js'>
+    </script>
 </div>
 </body>
 </html>

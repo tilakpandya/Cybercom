@@ -4,26 +4,33 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Registration page</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <script src='js/Registration.js'></script>
 </head>
 <body>
+    
     <div align="center">
         <h1>Registration page</h1>
-        <form action="">
+        <form action="login.html">
             <table>
                 <tr>
+                    <td> 
+                        <input type="text" placeholder="Name" id="AdminName" required>
+                    </td>
+                  </tr>
+                <tr>
                   <td> 
-                      <input type="email" placeholder="Email" id="AdminLoginEmail">
+                      <input type="email" placeholder="Email" id="AdminRegisterEmail" required>
                   </td>
                 </tr>
                 <tr>
-                  <td><input type="password" placeholder="Password" id="AdminLoginPassword"></td>
+                  <td><input type="password" placeholder="Password" id="AdminRegisterPassword" required></td>
               </tr>
               <tr>
+                <td><input type="password" placeholder="Confirm Password" id="AdminConfirmPassword" onblur='check();' required></td>
+            </tr>
+              <tr>
                 <td>
-                    <select id="AdminCity">
+                    <select id="AdminCity" required>
                         <option selected>Select city</option>
                         <option>Nadiad</option>
                         <option>Ahmedabad</option>
@@ -34,7 +41,7 @@
             </tr>
             <tr>
                 <td>
-                    <select id="AdminState">
+                    <select id="AdminState" required>
                         <option selected>Select State</option>
                         <option>Gujarat</option>
                         <option>Maharastra</option>
@@ -44,11 +51,12 @@
                 </td>
             </tr>
             <tr>
-                <td><input type="checkbox" id="AdminTermsAndConditions">Terms And Conditions</td>
+                <td><input type="checkbox" id="AdminTermsAndConditions" required>Terms And Conditions</td>
             </tr>
             </table>
-            <input type="submit" id="submit" value="Registered">
+            <input type="submit" id="submit" value="Registered" onclick="addToArray()">
         </form>
+
     </div>
 </body>
 </html>
