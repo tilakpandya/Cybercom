@@ -66,7 +66,7 @@ const addToArray=()=>{
         age: todayDate - new Date(document.getElementById('UserBdate').value).getFullYear()
     }
     
-    UserArray.push(user);
+    data.push(user);
 
     console.log(UserArray);
     localStorage.setItem('UserArray',JSON.stringify(UserArray));
@@ -79,3 +79,4 @@ const logout=()=>{
     localStorage.removeItem('UserArray');
 }
 
+display();
