@@ -17,7 +17,7 @@
         <a class="active" href="dashboard.html">Dashboard</a>
         <a href="User.html">Users</a>
         <a href="UserSession.html">Login Sessions</a>
-        <a href="#">Logout</a>
+        <a href="#" onclick="logout()">Logout</a>
        
         <div  style="background-color:#bbb;">
             <h1>User page</h1>
@@ -31,7 +31,7 @@
             <input type="email" name="UserEmail" id="UserEmail" placeholder="Email">
             <input type="password" name="UserPassword" id="UserPassword" placeholder="Password">
             <input type="date" name="UserBdate" id="UserBdate" placeholder="Birthdate">
-            <input type="submit" name="submit" value="Add User" id="submit" onclick="addToArray()">
+            <input type="button" name="submit" value="Add User" id="submit" onclick="addToArray()">
         </form>
     </div>
 
