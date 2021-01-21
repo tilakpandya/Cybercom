@@ -5,27 +5,28 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>User Session</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/dashboard.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/Usersession.css'>
+    
 </head>
 <body>
+    
     <div class="row">
-        <div  style="background-color:#aaa;">
+        <div  style="background-color:lightgray;">
         
-        <p>Hello <p id="DashboardName"></p></p>
-        
-        <a class="active" href="dashboard.html">Dashboard</a>
-        <a href="User.html">Users</a>
-        <a href="UserSession.html">Login Sessions</a>
-        <a href="#">Logout</a>
-       
+        Hello<p id="DashboardName"></p>
+        <ul>   
+            <li><a class="active" href="dashboard.html">Dashboard</a></li>
+            <li><a href="User.html" >Users</a></li>
+            <li><a href="UserSession.html">Login Sessions</a></li>
+            <li><a href="#" onclick="logout()">Logout</a></li>
+            </ul>
         <div  style="background-color:#bbb;">
             <h1>User Session page</h1>
             
         </div>
     </div>
     
-
+    <script src='js/UserSession.js'></script>
 <!-- 
    
   </div> -->

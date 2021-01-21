@@ -8,3 +8,7 @@ const logout=()=>{
    window.location.href = "login.html";
    localStorage.removeItem('UserArray');
 }
+
+let UserData = JSON.parse(localStorage.getItem("UserArray"));
+
+console.log(UserData);
