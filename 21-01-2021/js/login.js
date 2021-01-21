@@ -9,8 +9,10 @@ if(localStorage.getItem("Admin_Registration_array"))
 
 console.log(array);
 
+
 const VarifyUser=()=>{
-    if(document.getElementById("AdminEmail")=="admin" && document.getElementById("AdminPassword")=="admin")
+    //console.log(document.forms.AdminEmail.value);
+    if(document.form.AdminEmail.value == "admin" && document.form.AdminPassword.value == "admin")
     {
         window.location.href = "dashboard.html";
     }

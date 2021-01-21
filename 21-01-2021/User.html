@@ -6,7 +6,7 @@
     <title>User page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/dashboard.css'>
-    <script src='main.js'></script>
+    
 </head>
 <body>
     <div class="row">
@@ -24,11 +24,22 @@
             
         </div>
     </div>
-    
 
-<!-- 
-   
-  </div> -->
-  
+    <div>
+        <form action="User.html">
+            <input type="text" name="UserName" id="UserName" placeholder="Name">
+            <input type="email" name="UserEmail" id="UserEmail" placeholder="Email">
+            <input type="password" name="UserPassword" id="UserPassword" placeholder="Password">
+            <input type="date" name="UserBdate" id="UserBdate" placeholder="Birthdate">
+            <input type="submit" name="submit" value="Add User" id="submit" onclick="addToArray()">
+        </form>
+    </div>
+
+    <div id="box"></div>
+
+    <script src='js/User.js'></script>
+
+
+
 </body>
 </html>
