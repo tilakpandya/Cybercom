@@ -1,0 +1,28 @@
+Today i start with PHP tutorials.
+PHP is server side scripting language because it's not visible by other people.
+PHP is Hypertext Preprocessor.
+Need Xampp to start work with PHP
+Store files in htdoc.
+extention is .php
+Start with <?php and end with ?>.
+index.php is by defualt name to run program.
+phpinfo() to check all details about php version and all.
+php.ini file contains default settings for php and you can modify that.
+to print anything need to use echo ""; we can also use html tags inside echo"".
+echo is marginally faster than print.echo has no return value while print has a return value of 1 so it can be used in expressions.
+'' is use inside "" and '' quicker than ""
+embedding php in html : <input type="text" value="<?php echo $text; ?>">
+// for single line comment and /*...*/ for multiline comment
+check Error handling and logging for different list of errors and warnings.
+E_ALL 	 - for all errors and warnings. 
+E_STRICT - Runtime Notices, suggest you to make change in your code so your program goes appropriatly.
+ini_set('error_reporting','E_ALL'); - set value of error_reporting to E_ALL.
+concatenation: echo 'the date is'.$date.' '.$month.' '.$year;  or echo "the date is $date $month $year"; 
+=== use to check value as well as type.
+die('message'); - stop execution further.
+	eg. msql_connect('localhost','root','') or die('Error in connection');
+
+PSR - PHP Standard Recommendation
+
+
+ 
