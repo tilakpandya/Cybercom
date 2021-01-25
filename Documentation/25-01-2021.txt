@@ -1,0 +1,16 @@
+Die() and exit() : use to give massage if DB connection is not there.
+preg_match('/is/',$str) : use to check if given word is availible in string.
+global variable : we can use in any function using global keyword.
+Basic Function : any user define functin contain piece of code and works whenever we call.
+Function with arguments and return : function myName($fname,$lname){return $fname+$lname;}
+
+String functions:
+1) strlen($str) 		- find string length.
+2) str_word_count($str) 	- count words in string
+3) str_shuffle($str) 		- shuffle the string
+4) substr("Hello world",6) 	- start string with given position.
+5) strrev($str)			- Reverse string
+6) similar_text($s1,$s2,$result)- find similarity in 2 strings
+7) -> trim("Hello World!","Hed!")	- use to trim the word 
+8) htmlentities()		- use to show html entitesn or tags in string.
+9) addslashes($str2)		- add slashes 
