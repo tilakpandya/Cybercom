@@ -1,0 +1,23 @@
+Array : 
+store maltiple elements in one variable.
+using array().
+print using print_r.
+	1)single
+	2)associative
+	3)multi dimensional
+
+foreach($array as $key=>$value){
+}
+
+include and require:
+both use to fatch variable and html elements to another page.
+require - gives different error and killes the rest of the page if file not found.
+include - generates error but doesn't killes rest of the page.
+
+include_once and require_once:
+same as include and require.
+main difference is it includes page only once and less time consuming.
+
+strtolower($username)- in lower case
+strtoupper($username)- in upper case
+substr_replace($str,'anyWord',23(index),3(HowManyWrds));
