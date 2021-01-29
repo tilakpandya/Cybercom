@@ -1,0 +1,23 @@
+htmlentities() - to store html tags in simple text. 
+
+			Session:
+session_start() - start session whenever we need.
+$_SESSION[name] - session variable
+unset($_SESSION[name]) - unset session.
+session_destroy() - to unset all sessions
+
+			Cookie:
+setcookie(name,value,time);
+$_COOKIE[name];
+setcookie(name,value,time-number); - to unset cookie
+
+			File Handling:
+$handle = fopen(fileName.txt,attributes) - attributes like w,a,r
+fwrite($handle,"Simple Text")	- write in file
+fclose($handle) - close the file.
+explode() - convert string into array.
+implode() - convert array into String.
+file_exist() - check file exist or not.
+unlink() - delete file.
+rename() - to rename file.
+
