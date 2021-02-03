@@ -3,7 +3,7 @@
 
 if (isset($_FILES['file'])) {
     $name=$_FILES['file']['name'];
-    $ext = strtolower(substr($name,strpos($name,'.')+1));
+    $ext = strtolower(substr($name,strpos($name,'.')+1)); // get
 
     $size=$_FILES['file']['size'];
     $max_size = 100000;
