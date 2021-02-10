@@ -1,1 +1,0 @@
-<input type="text" value="<?php echo'Hello world';?>">
